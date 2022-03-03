@@ -15,10 +15,14 @@ todo_form.onsubmit = (e) => {
     //console.log(texto);
     todos.push(texto);
     // Eliminar todos los elementos de HTML
+    /*
     todo_list.innerHTML = ' ';
     for (let i = 0; i < todos.length;i ++){
         todo_list.innerHTML += `<li>${todos[i]}</li>`;
     }
+    */
+    const todosTemplate = todos.map(t => `<li>${t}</li>`);
+    todo_list.innerHTML = todosTemplate.join('');
     delete_text.setAttribute("max",todos.length);
     //todo_list.innerHTML = `<li>${texto}</li>`;
 }
@@ -54,9 +58,13 @@ todo_form_delete.onsubmit = e => {
     }else{
         todos = todos.slice(0,deleteValue).concat(todos.slice(deleteValue+1));
     }
+    const todosTemplate = todos.map(t => `<li>${t}</li>`);
+    todo_list.innerHTML = todosTemplate.join('');
+    /*
     todo_list.innerHTML = '';
     for (let i = 0; i < todos.length;i ++){
         todo_list.innerHTML += `<li>${todos[i]}</li>`;
     }
+    */
     delete_text.setAttribute("max",todos.length);
 }
