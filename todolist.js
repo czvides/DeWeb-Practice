@@ -71,3 +71,5 @@ todo_form_delete.onsubmit = e => {
     */
     delete_text.setAttribute("max",todos.length);
 }
+
+// 11. querySelectorAll
