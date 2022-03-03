@@ -8,12 +8,19 @@
     <title>To-do List</title>
 </head>
 <body>
-    <form>
-        <legend>To-do List</legend>
+    <form id="todo-form">
+        <legend>Add Task</legend>
         <label>Task: </label>
         <input type="text" id="to-do">
         <input type="submit" value="Enviar">
     </form>
+    <form id="form_delete">
+        <legend>Delete Task</legend>
+        <label>Task #: </label>
+        <input type="number" id="delete-todo">
+        <input type="submit" value="Enviar">
+    </form>
+    <h2>Tasks: </h2>
     <ul id="todo-list">
 
     </ul>
