@@ -1,7 +1,7 @@
 // alert("Probando")
 // Me estaba dando problemas usar la propiedad slice en un arreglo declarado con const. Me toco cambiarlo a let para evitar ese problema.
 
-let todos = [];
+let todos = ["Tarea 1","Tarea 2","Tarea 3","Tarea 4"];
 
 const todo_form = document.getElementById("todo-form");
 // Reemplazar el evento submit
@@ -49,6 +49,8 @@ todo_form_delete.onsubmit = e => {
     let deleteValue = numberDelete.value - 1;
 
     const todo_list = document.getElementById("todo-list");
+    todos.splice(deleteValue,1);
+    /*
     // Eliminar elementos del arreglo "todos"
     if (deleteValue == 0){
         todos.shift();
@@ -58,6 +60,7 @@ todo_form_delete.onsubmit = e => {
     }else{
         todos = todos.slice(0,deleteValue).concat(todos.slice(deleteValue+1));
     }
+    */
     const todosTemplate = todos.map(t => `<li>${t}</li>`);
     todo_list.innerHTML = todosTemplate.join('');
     /*
