@@ -31,10 +31,18 @@ img {
 .hidden {
     display:none;
 }
+.flex {
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-around;
+}
 /* 
-    -block
-    -inline-block
-    -inline
-    -none
+    -block - uses all the line
+    -inline-block - Using margin and padding
+    -inline - Use all the necessary space
+    -none: Ocultar elementos
     -flex
  */
+ 
