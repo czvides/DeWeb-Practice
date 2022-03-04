@@ -25,6 +25,17 @@ todo_form.onsubmit = (e) => {
     todo_list.innerHTML = todosTemplate.join('');
     delete_text.setAttribute("max",todos.length);
     //todo_list.innerHTML = `<li>${texto}</li>`;
+
+    const elementos = document.querySelectorAll("#todo-list li");
+    elementos.forEach((elemento, i) => {
+        elemento.addEventListener('click',() => {
+            // Eliminar un elemento HTML
+            // Los elementos padres tiene la capacidad de eliminar a sus hijos
+            elemento.parentNode.removeChild(elemento);
+            todos.splice(i,1);
+            console.log(elemento, i)
+        })
+    });
 }
 
 // Definir atributos en las etiquetas HTML
