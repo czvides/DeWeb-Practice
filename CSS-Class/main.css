@@ -1,4 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+button { 
+    background-color: #262849;
+    border-style: none;
+}
 img {
     height: 21.77px;
     width: 50px;
 }
+.bg-gray-900{
+    background-color: #1e1f33;
+}
+.tx-white{
+    color: #e2d6d6;
+}
+.block {
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+.hidden {
+    display:none;
+}
+/* 
+    -block
+    -inline-block
+    -inline
+    -none
+    -flex
+ */
