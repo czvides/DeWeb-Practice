@@ -35,14 +35,18 @@ img {
     display: flex;
 }
 
-.justify-between{
-    justify-content: space-around;
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center;
 }
 /* 
     -block - uses all the line
     -inline-block - Using margin and padding
     -inline - Use all the necessary space
     -none: Ocultar elementos
-    -flex
+
+    -flex: Se emplean en los contenedores padres.
  */
  
