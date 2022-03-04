@@ -3,17 +3,9 @@
 
 let todos = ["Tarea 1","Tarea 2","Tarea 3","Tarea 4"];
 
-const todo_form = document.getElementById("todo-form");
-// Reemplazar el evento submit
-todo_form.onsubmit = (e) => {
-    // Evitar que vuelva a cargar la página
-    e.preventDefault();
-    const todo_text = document.getElementById("to-do");
-    const texto = todo_text.value;
-    todo_text.value = '';
+const render = () => {
     const todo_list = document.getElementById("todo-list");
     //console.log(texto);
-    todos.push(texto);
     // Eliminar todos los elementos de HTML
     /*
     todo_list.innerHTML = ' ';
@@ -33,9 +25,21 @@ todo_form.onsubmit = (e) => {
             // Los elementos padres tiene la capacidad de eliminar a sus hijos
             elemento.parentNode.removeChild(elemento);
             todos.splice(i,1);
+            render();
             console.log(elemento, i)
         })
     });
+}
+const todo_form = document.getElementById("todo-form");
+// Reemplazar el evento submit
+todo_form.onsubmit = (e) => {
+    // Evitar que vuelva a cargar la página
+    e.preventDefault();
+    const todo_text = document.getElementById("to-do");
+    const texto = todo_text.value;
+    todo_text.value = '';
+    todos.push(texto);
+    render();
 }
 
 // Definir atributos en las etiquetas HTML
