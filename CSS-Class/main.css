@@ -5,10 +5,7 @@ body{
 a {
     text-decoration: none;
 }
-button { 
-    background-color: #262849;
-    border-style: none;
-}
+
 img {
     height: 25px;
     width: 62.87px;
@@ -40,6 +37,40 @@ img {
 }
 .justify-center{
     justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.m-8 {
+    margin: 8px;
+}
+.p-header {
+    padding: 13px 12px;
+}
+.py-8{
+    padding: 8px 0;
+}
+.px-16{
+    padding: 0 16px;
+}
+.mx-15{
+    margin: 0 15px;
+}
+.ml-25 {
+    margin-left: 25px;
+}
+.mr-25 {
+    margin-right: 25px;
+}
+.bg-lgbl{
+    background-color: #3a667a;
+}
+
+.br-12{
+    border-radius: 12px;
 }
 /* 
     -block - uses all the line
