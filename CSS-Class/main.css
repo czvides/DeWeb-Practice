@@ -129,8 +129,25 @@ p {
     margin-top: 42px;
     margin-bottom: 42px;
 }
+.absolute{
+    position: absolute;
+}
+.z-15{
+    z-index: -15;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.max-width-1400{
+    max-width: 1400px;
+}
+/* 2:75:41 Media Queries */
+
 /* Position atributte */
-/* Relative -> Podemos mover en 8 direcciones */
+/* Relative -> Podemos mover en 8 direcciones 
+    Absolute -> Mueve los objetos en relación al contenedor. Si el contenedor padre tiene posición relativa, se posicionará junto a él. Mientras que si no tiene posición se irá al comienzo del navegador
+    */
 
 /* 
     -block - uses all the line
