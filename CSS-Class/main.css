@@ -1,17 +1,22 @@
 body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-div{
-    height: 40px
+h1{
+    margin: 0;
+}
+p {
+    margin: 0;
 }
 .logo-size {
     height: 25px;
     width: 62.87px;
 }
-.bg-gray-900{
-    background-color: #1e1f33;
+.bg-gray-900-op-2{
+    background-color: rgba(30, 31, 51, 0.2);
 }
 .tx-white{
     color: #e2d6d6;
@@ -71,7 +76,7 @@ div{
     margin-right: 25px;
 }
 .bg-lgbl{
-    background-color: #3a667a;
+    background-color: #5b8395;
 }
 
 .br-12{
@@ -80,6 +85,53 @@ div{
 .no-underline{
     text-decoration: none;
 }
+.font-bold{
+    font-weight: bolder;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.letter-spacing-1{
+    letter-spacing: 1px;
+}
+.w-full {
+    width:100%;
+}
+.p-relative {
+    position: relative;
+}
+.p-m-up{
+    top: -66px; 
+}
+.z-10{
+    z-index: 10;
+}
+.font-size-60{
+    font-size: 60px;
+}
+.tx-color-lgbl{
+    color: #7695a3;
+}
+.f-direction-column{
+    flex-direction: column;
+}
+
+.bg-white{
+    background-color: white;
+}
+.no-border{
+    border: none;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.my-42{
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+/* Position atributte */
+/* Relative -> Podemos mover en 8 direcciones */
+
 /* 
     -block - uses all the line
     -inline-block - Using margin and padding
@@ -88,3 +140,5 @@ div{
 
     -flex: Se emplean en los contenedores padres.
  */
+
+ /* 1:54:29 */

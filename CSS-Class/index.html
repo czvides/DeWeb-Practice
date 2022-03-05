@@ -9,11 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
     <title>CSS MasterClass</title>
 </head>
 
 <body>
-    <header class="bg-gray-900 flex justify-between p-header">
+    <header class="bg-gray-900-op-2 flex justify-between p-header p-relative z-10 opacity-50">
         <div class="flex items-center">
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lowyat.net%2Fwp-content%2Fuploads%2F2014%2F07%2Fibm.png&f=1&nofb=1" class="px-16 ml-25 mx-15 logo-size">
             <a href="#" class="tx-white py-9 px-16 mx-15 no-underline">Pricing</a>
@@ -23,9 +26,17 @@
         </div>
         <div class="flex items-center">
             <a href="#" class="tx-white py-9 px-16 mx-15 no-underline">Login</a>
-            <a href="#" class="tx-white py-9 px-16 mx-15 mr-25 bg-lgbl br-12 no-underline">Sign Up</a>
+            <a href="#" class="tx-white py-9 px-16 mx-15 mr-25 bg-lgbl br-12 no-underline font-bold uppercase letter-spacing-1">Sign Up</a>
         </div>
     </header>
-    <h1>Prueba</h1>
+    <section class="p-relative p-m-up">
+        <!-- No tiene el mismo tamaño del contenedor -->
+        <img src="night.jpeg" class="w-full" alt="">
+        <div class="" style="background-color: black; max-width: 541px;">
+            <h1 class="font-size-60 tx-white">Turbocharge your<br/><span class="tx-color-lgbl">development career</span></h1>
+            <p class="tx-white font-size-20 my-42" style="max-width: 444px;background-color: rgb(18, 56, 43);">Chris Courses provides students and professionals<br/>a college-level web development education.</p>
+            <button class="bg-white no-border br-12 py-9 px-16 font-size-20 tx-color-lgbl">Get started</button>
+        </div>
+    </section>
 </body>
 </html>
