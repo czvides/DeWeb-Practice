@@ -1,3 +1,44 @@
-h1{
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.m-center{
+    margin: auto;
+}
+.font-size-20{
+    font-size: 20px
+}
+.font-color-white{
+    color:white
+}
+.mx-15{
+    margin-right: 15px;
+    margin-left: 15px
+}
+.bg-grayviolet{
+    background-color: rgb(41, 41, 56);
+}
+.m-bottom-20{
+    margin-bottom: 20px;
+}
+.full-width{
+    width: 100%;
+}
+.t-align-center{
+    text-align: center;
+}
+.flex-column{
+    flex-direction: column;
 }
