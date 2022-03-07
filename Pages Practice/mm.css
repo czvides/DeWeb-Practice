@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding: 0;
+}
 .size-140{
     height: 140px;
     width: 140px
@@ -41,5 +45,46 @@
 }
 .my-40{
     margin-top: 40px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+}
+.height-250{
+    height: 250px;
+}
+.full-width{
+    width: 100%;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.t-align-center{
+    text-align: center;
+}
+.bg-lightblue{
+    background-color: rgb(162, 216, 235);
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.width-135{
+    width: 135px;
+}
+.my-5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.y-align-center{
+    align-items: center;
+}
+.m-right-20{
+    margin-right: 20px;
 }
