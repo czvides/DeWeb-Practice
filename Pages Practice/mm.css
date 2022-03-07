@@ -88,3 +88,30 @@
 .m-right-20{
     margin-right: 20px;
 }
+.font-size-18{
+    font-size: 18px;
+}
+.m-left-65{
+    margin-left: 65px;
+}
+.rotate-20{
+    transform: rotate(-20deg);
+}
+.height-455{
+    height: 455px;
+}
+#consiguelo{
+    position: relative;
+    left: 90px;
+    bottom: -35px;
+    width: 200px;
+}
+.line-height-1-7{
+    line-height: 1.7;
+}
+.m-10{
+    margin-top: 20px;
+}
+.m-top-25{
+    margin-top: 25px;
+}
