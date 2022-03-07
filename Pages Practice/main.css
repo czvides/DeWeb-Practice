@@ -57,8 +57,8 @@ h1{
 .relative{
     position: relative;
 }
-.m-top-30{
-    margin-top: 30px;
+.m-top-15{
+    margin-top: 15px;
 }
 .move-left-46{
     left: 46px;
@@ -172,8 +172,8 @@ h1{
     margin-left:35px;
     margin-right: 35px;
 }
-.border-dotted{
-    border: dotted;
+.border-solid{
+    border: solid;
     border-width: 1px;
 }
 .px-20{
@@ -205,4 +205,39 @@ h1{
 .mx-5-15{
     margin-left: 5px;
     margin-right: 15px;
+}
+#ipad{
+    height: 254.55px;
+    width: 600px;
+}
+.border-radius-8{
+    border-radius: 8px;
+}
+.m-left-30{
+    margin-left: 30px;
+}
+.width-290{
+    width: 290px
+}
+.my-7{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.width-480{
+    width: 480px;
+}
+.move-top:hover{
+    position: relative;
+    top: -10px;
+    box-shadow: 25px 25px 26px -14px rgb(16, 55, 82);
+}
+input[type="submit"]:hover{
+    background-color: rgb(14, 156, 156);
+    cursor: pointer;
+}
+.font-color-black{
+    color: black;
+}
+.no-underline{
+    text-decoration: none;
 }
