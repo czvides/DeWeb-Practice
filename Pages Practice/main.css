@@ -115,3 +115,15 @@ h1{
 .move-right-70{
     right: 70px;
 }
+.bg-blue{
+    background-color: rgb(79, 149, 149);
+}
+.text-color-white{
+    color: white;
+}
+.no-border{
+    border: none;
+}
+.justify-center{
+    justify-content: center;
+}
