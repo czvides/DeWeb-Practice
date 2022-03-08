@@ -115,3 +115,45 @@
 .m-top-25{
     margin-top: 25px;
 }
+.p-bottom-50{
+    padding-bottom: 50px;
+}
+.pxy-60{
+    padding: 70px;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.div-video{
+    margin: 20px 40px;
+    padding: 60px 160px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.div-img{
+    margin: 10px 45px;
+    padding: 50px;
+}
+.button{
+    padding: 7px 15px;
+    margin: 10px 0;
+    background-color: rgb(221, 227, 233);
+    border-radius: 9px;
+}
+.button:hover{
+    background-color: rgb(161, 179, 195);
+    cursor: pointer;
+}
+.bg-gray{
+    background-color: gray;;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.footer-text{
+    font-family: 'Nunito';
+    font-size: 16px;
+    color:rgb(231, 220, 219);
+    margin: 0 3px;
+}
