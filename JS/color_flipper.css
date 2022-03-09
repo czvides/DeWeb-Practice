@@ -1,5 +1,8 @@
 body{
-    background-color: #cfcfcf;
+    background-color: #bbbaba;
+}
+.bg-gray{
+    background-color: #dadada;
 }
 .nav-shadow{
     box-shadow: 5px 10px #888888;
