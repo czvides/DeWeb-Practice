@@ -3,13 +3,18 @@ const colors = ["green","red","rgba(133,122,200)","#F15025"];
 
 const btn = document.getElementById('btn');
 const color_span = document.getElementById('color_span');
-
+/*
 btn.addEventListener("click",function(){
     const randomNumber = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[randomNumber];
     color_span.innerText = colors[randomNumber];
 });
-
+*/
+btn.addEventListener("click",function(){
+    const randomColor = getColorNumber();
+    document.body.style.backgroundColor = randomColor;
+    color_span.innerText = randomColor;
+});
 function getColorNumber (){
     let hexNumber = '#';
     for(let i = 0; i < 6; i++){

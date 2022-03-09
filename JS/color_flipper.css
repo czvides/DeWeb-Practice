@@ -66,6 +66,20 @@ body{
     border-radius: 20px;
 }
 .btn:hover{
-    cursor: alias;
+    cursor: pointer;
+    background-color: #bebebe;
+}
+
+#color_simple, #color_hex{
+    background-color: white;
+    margin: 30px 0;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 20px
+}
+#color_simple:hover , #color_hex:hover{
+    cursor: pointer;
     background-color: #bebebe;
 }
