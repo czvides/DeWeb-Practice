@@ -1,7 +1,10 @@
 // alert("funcionando");
+
+// Defining the simple array.
 const colors = ["green","red","rgba(133,122,200)","#F15025"];
 
-const btn = document.getElementById('btn');
+// Selecting the button click me! and the span color.
+const btn = document.querySelector('.btn');
 const color_span = document.getElementById('color_span');
 /*
 btn.addEventListener("click",function(){
