@@ -42,13 +42,16 @@ function simpleColor(){
     const randomNumber = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[randomNumber];
     color_span.innerText = colors[randomNumber];
-});
-*/
-btn.addEventListener("click",function(){
+}
+
+// With the value returned of the getColorNumber function. It displays the value on the body and the span tag.
+function hexadecimalColor(){
     const randomColor = getColorNumber();
     document.body.style.backgroundColor = randomColor;
     color_span.innerText = randomColor;
-});
+}
+
+// Generates a random color using the ASCII numbers. 
 function getColorNumber (){
     let hexNumber = '#';
     for(let i = 0; i < 6; i++){
