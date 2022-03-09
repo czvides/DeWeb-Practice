@@ -51,6 +51,67 @@ header .header_right div a{
     border-color: black;
 }
 
-.font-size-{
+.font-size-17{
     font-size: 17px;
+}
+.full-width{
+    width: 100%;
+}
+.gradient{
+    margin: 8px 3px;
+    background-image: linear-gradient(lightblue,white);
+}
+.bg-green{
+    background-color: rgb(43, 109, 65);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.flex-column{
+    flex-direction: column;
+}
+.font-white{
+    color:white;
+}
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.full-height{
+    height: 100%;
+}
+.m-first-section-right{
+    margin: 5px 8px 8px 8px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.text-align-center{
+    text-align: center;
+}
+.border-first-section{
+    border-style: solid;
+    border-color: white;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.py-25-px-175{
+    padding: 25px 175px;
+}
+.no-m-top{
+    margin-top: 0;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.m-bottom-10{
+    margin-bottom: 10px;
 }
