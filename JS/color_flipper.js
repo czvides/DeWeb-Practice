@@ -28,6 +28,17 @@ btn_hex.addEventListener("click", function(){
 
 // Function of the generate color. It choose between its id.
 btn.addEventListener("click",function(){
+    if (btn.id == "color_hex_btn") {
+        hexadecimalColor();
+    }else if(btn.id == "color_simple_btn"){
+        simpleColor();
+    }else{
+        alert("Select 1 navbar button");
+    }
+});
+
+// Select a index of the colors array. Displaying on the screen and in the span tag.
+function simpleColor(){
     const randomNumber = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[randomNumber];
     color_span.innerText = colors[randomNumber];
