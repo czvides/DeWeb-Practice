@@ -83,3 +83,9 @@ body{
     cursor: pointer;
     background-color: #bebebe;
 }
+.btn-clicked{
+    background-color: black !important;
+    color:white !important;
+    border-color: #65d1fc !important;
+    border-width: 2px !important;
+}
