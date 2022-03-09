@@ -1,0 +1,56 @@
+#logo{
+    height: 70px;
+}
+#find_store{
+    height: 30px;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+header{
+    align-items: center;
+}
+.max-width-1200-mx-auto{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.align-y-center{
+    align-items: center;
+}
+header div img, header div a{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+header div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+header .header_right div a{
+    text-transform: capitalize;
+    margin-left: 1px;
+    margin-right: 20px;
+}
+
+#sign_in, #join_now{
+    text-transform: capitalize;
+    border-style: solid;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+#join_now{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.font-size-{
+    font-size: 17px;
+}
