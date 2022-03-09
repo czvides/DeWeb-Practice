@@ -6,7 +6,27 @@ const colors = ["green","red","rgba(133,122,200)","#F15025"];
 // Selecting the button click me! and the span color.
 const btn = document.querySelector('.btn');
 const color_span = document.getElementById('color_span');
-/*
+
+// Selecting the buttons of the nav bar
+const btn_simple = document.getElementById('color_simple');
+const btn_hex = document.getElementById('color_hex');
+
+// Functions of the nav bar buttons, they change the id of the color generate button. And also add a class to know that the button is selected.
+btn_simple.addEventListener("click", function(){
+    btn.setAttribute("id","color_simple_btn");
+    btn_simple.setAttribute("class","btn-clicked");
+    btn_hex.removeAttribute("class","btn-clicked");
+    console.log(btn.id);
+});
+btn_hex.addEventListener("click", function(){
+    btn.setAttribute("id","color_hex_btn");
+    btn_simple.removeAttribute("class","btn-clicked");
+    btn_hex.setAttribute("class","btn-clicked");
+    console.log(btn.id);
+});
+
+
+// Function of the generate color. It choose between its id.
 btn.addEventListener("click",function(){
     const randomNumber = Math.floor(Math.random() * colors.length);
     document.body.style.backgroundColor = colors[randomNumber];
