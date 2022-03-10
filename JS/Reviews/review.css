@@ -1,0 +1,85 @@
+.flex{
+    display: flex;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.person{
+    background-color: rgb(39, 126, 114);
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    left: -33px;
+    z-index: -10;
+}
+.btn{
+    font-size: 16px;
+    padding: 6px 12px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.section-size{
+    height: 475px;
+    width: 560px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.divider{
+    border-bottom: 5px solid rgb(34, 109, 102) ;
+    width: 40px;
+}
+#info{
+    text-align: justify;
+}
+.p-bottom-30{
+    padding-bottom: 30px;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.person-behind{
+    background-color: aquamarine;
+    position: relative;
+    right: -40px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.no-margin{
+    margin: 0;
+}
