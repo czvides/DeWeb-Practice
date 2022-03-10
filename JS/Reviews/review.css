@@ -29,9 +29,8 @@
     color: white;
     cursor: pointer;
 }
-.section-size{
-    height: 475px;
-    width: 560px;
+.max-width-400{
+    max-width: 400px;
 }
 .flex-column{
     flex-direction: column;
