@@ -11,8 +11,14 @@
 .mv-right-30{
     margin-right: 30px;
 }
+.flex-column{
+    flex-direction: column;
+}
 .font-size-15{
     font-size: 15px;
+}
+.ipad-height{
+    height: 219px;
 }
 .flex{
     display: flex;
@@ -22,6 +28,10 @@
 }
 .px-{
     padding: 0 10px;
+}
+.px:hover{
+    cursor: pointer;
+    color: rgb(44, 44, 44);
 }
 .max-width-1200{
     max-width: 1200px;
@@ -54,4 +64,37 @@ a{
 section .font-size-13 p{
     margin-top: 8px;
     margin-bottom: 8px;
+}
+.font-size-20{
+    font-size: 20px
+}
+.text-center{
+    text-align: center;
+}
+.font-color-gray{
+    color: rgb(56, 56, 56);
+}
+.font-color-brown{
+    color: rgb(109, 65, 29);
+}
+.font-color-white{
+    color: white;
+}
+.almost-footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.mx-20{
+    margin: 0 20px;
 }
