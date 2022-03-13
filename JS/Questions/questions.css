@@ -1,0 +1,57 @@
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.width-700{
+    width: 700px;
+}
+.capitalize{
+    text-transform: captalize;
+}
+.font-cursive{
+    font-family:cursive;
+}
+.arrows{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.align-y-center{
+    align-items: center;
+}
+.question{
+    text-transform: capitalize;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 25px
+}
+.mx-center{
+    margin-right: auto;
+    margin-left: auto;
+}
+.font-size-40{
+    font-size: 40px;
+}
+body{
+    background-color: rgb(203, 231, 222);
+}
+.m-left-25{
+    margin-left: 25px;
+}
+.bg-white-m-bottom-10{
+    margin-bottom: 10px;
+    background-color: white;
+}
+.hide{
+    display: none
+}
+.arrows:hover{
+    cursor: pointer;
+}
+.answer{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 25px;
+}
