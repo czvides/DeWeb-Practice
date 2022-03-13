@@ -9,12 +9,19 @@
     <title>Modal</title>
 </head>
 <body class="bg-darkblue">
-    <div class="flex flex-column bg-white width-500 text-center mx-auto m-top-250">
-        <h1 class="capitalize font-size-45">modal project</h1>
-        <button id="modal_button" class="uppercase bg-lightblue width- no-border font-size-20 color-white mx-auto hover border-r-15">open modal</button>
+    <div class="" id="modal_open">
+        <div  class="flex flex-column bg-white width-500 text-center mx-auto">
+            <h1 class="capitalize font-size-45 letter-sp-2">modal project</h1>
+            <button id="modal_button" class="uppercase bg-lightblue width- no-border font-size-20 color-white mx-auto hover border-r-15">open modal</button>
+        </div>
     </div>
-    <div class="hide">
-        <h1>Modal content</h1>
+    <div id="modal_content" class="hide">
+        <div  class="flex flex-column bg-white width-500 text-center mx-auto">
+            <p id="exit" class="font-size-30 text-right m-right-30">❌</p>
+            <h1 class="capitalize font-size-45 letter-sp-2" style="margin-top: 0;">Modal content</h1>
+            <p class="mx-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur assumenda minus voluptate a blanditiis totam aut amet maiores harum, magni repellat debitis eum labore voluptatem doloremque distinctio eaque dolor!</p>
+        </div>
     </div>
+    <script src="modal.js"></script>
 </body>
 </html>
