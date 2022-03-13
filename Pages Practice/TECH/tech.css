@@ -1,0 +1,43 @@
+#logo{
+    height: 50px;
+}
+.flex{
+    display: flex;
+}
+.max-width-1200{
+    max-width: 1200px;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.align-y-center{
+    align-items: center;
+}
+header div a {
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+header div img{
+    margin-left: 20px;
+}
+.full-width{
+    width: 100%;
+}
+header{
+    margin-bottom: 20px;
+}
+.width-500{
+    width: 500px;
+}
