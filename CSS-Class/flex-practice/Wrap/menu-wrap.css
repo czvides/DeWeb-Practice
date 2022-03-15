@@ -1,0 +1,74 @@
+.h2-drink{
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.h2-hr{
+    color: brown;
+    height: 3px;
+    background-color: brown;
+    width: 50px;
+}
+.drink-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.max-width-1200{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Selectores de los botones */
+.btns button{
+    font-size: 20px;
+    background-color: white;
+    color: rgb(54, 27, 9);
+    text-transform: capitalize;
+    border-style: solid;
+    border-color: rgb(54, 27, 9);
+    padding: 3px 8px;
+    border-radius: 15px;
+    margin: 20px 15px;
+}
+.btns button:hover{
+    background-color: rgb(54, 27, 9);
+    color: white;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+.drink-container{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 30px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-left:10px;
+}
+.info p {
+    margin: 10px;
+}
+.hr-drink{
+    font-size: 2px;
+    color: rgb(54, 27, 9);
+    width: 240px;
+    margin-top: 0;
+}
+.drinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
