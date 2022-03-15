@@ -201,7 +201,7 @@ function drinkElement(item){
                 <div class="img" style="background-color: ${item.color};"></div>
                 <div class="info">
                     <p>${item.drink}</p>
-                    <p>$${item.price}</p>
+                    <p>$ ${item.price}</p>
                 </div>
                 <hr class="hr-drink">
             </div>`;
