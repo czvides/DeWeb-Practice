@@ -1,0 +1,93 @@
+header nav div img{
+    height: 50px;
+    margin-left: 20px
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+div button{
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 4px 10px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+}
+div button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+main .text h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main .text p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.landscape{
+    width:100%;
+    max-width: 1200px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+section h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(14, 47, 66);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto 10px auto;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(6, 34, 58);
+    justify-content: center;
+    padding: 10px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+footer p{
+    text-align: center;
+}
+.date{
+    font-size: 30px
+}
